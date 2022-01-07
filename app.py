@@ -53,7 +53,7 @@ st.header('Stock prices')
 # dailyclose = pd.DataFrame(prices).transpose()
 
 
-dailyclose = yf.download('OCI.L BPT.L PIN.L ^FTSE',start = '2021-07-22')['Close']
+dailyclose = yf.download('OCI.L BPT.L PIN.L ^FTSE IWDA.L',start = '2021-07-22')['Close']
 
 dailyclose
 
